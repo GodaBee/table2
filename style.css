@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Dosis;
+}
+
+table {
+    margin: 50px auto;
+    border: 2px solid white;
+    border-collapse: collapse;
+    background: #C85C8E;
+    color: white;
+    width: 80%;
+    
+}
+td,th {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #9D3C72;
+    color: white;
+}
+
+thead {
+    background: #7B2869;
+    color: white;
+}
